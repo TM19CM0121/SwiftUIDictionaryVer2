@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,11 @@
 		4446CDE423FC2E22006B8F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4446CDE223FC2E22006B8F5F /* LaunchScreen.storyboard */; };
 		4446CDEF23FC2E23006B8F5F /* SwiftUIDictionaryVer2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446CDEE23FC2E23006B8F5F /* SwiftUIDictionaryVer2Tests.swift */; };
 		4446CDFA23FC2E23006B8F5F /* SwiftUIDictionaryVer2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446CDF923FC2E23006B8F5F /* SwiftUIDictionaryVer2UITests.swift */; };
+		4446CE0823FC2F25006B8F5F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446CE0723FC2F25006B8F5F /* Dictionary.swift */; };
+		4446CE0A23FC33D4006B8F5F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446CE0923FC33D4006B8F5F /* SafariView.swift */; };
+		4446CE0D23FC48FB006B8F5F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4446CE0C23FC48FB006B8F5F /* Lottie */; };
+		4446CE0F23FC49F7006B8F5F /* TestAnimations in Resources */ = {isa = PBXBuildFile; fileRef = 4446CE0E23FC49F7006B8F5F /* TestAnimations */; };
+		4446CE1123FC4A26006B8F5F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4446CE1023FC4A26006B8F5F /* LottieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,10 @@
 		4446CDF523FC2E23006B8F5F /* SwiftUIDictionaryVer2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDictionaryVer2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4446CDF923FC2E23006B8F5F /* SwiftUIDictionaryVer2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDictionaryVer2UITests.swift; sourceTree = "<group>"; };
 		4446CDFB23FC2E23006B8F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4446CE0723FC2F25006B8F5F /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		4446CE0923FC33D4006B8F5F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		4446CE0E23FC49F7006B8F5F /* TestAnimations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestAnimations; sourceTree = "<group>"; };
+		4446CE1023FC4A26006B8F5F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4446CE0D23FC48FB006B8F5F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +93,7 @@
 				4446CDED23FC2E23006B8F5F /* SwiftUIDictionaryVer2Tests */,
 				4446CDF823FC2E23006B8F5F /* SwiftUIDictionaryVer2UITests */,
 				4446CDD523FC2E1D006B8F5F /* Products */,
+				4446CE0E23FC49F7006B8F5F /* TestAnimations */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +113,13 @@
 				4446CDD723FC2E1D006B8F5F /* AppDelegate.swift */,
 				4446CDD923FC2E1D006B8F5F /* SceneDelegate.swift */,
 				4446CDDB23FC2E1D006B8F5F /* ContentView.swift */,
+				4446CE0723FC2F25006B8F5F /* Dictionary.swift */,
+				4446CE0923FC33D4006B8F5F /* SafariView.swift */,
 				4446CDDD23FC2E22006B8F5F /* Assets.xcassets */,
 				4446CDE223FC2E22006B8F5F /* LaunchScreen.storyboard */,
 				4446CDE523FC2E22006B8F5F /* Info.plist */,
 				4446CDDF23FC2E22006B8F5F /* Preview Content */,
+				4446CE1023FC4A26006B8F5F /* LottieView.swift */,
 			);
 			path = SwiftUIDictionaryVer2;
 			sourceTree = "<group>";
@@ -152,6 +166,9 @@
 			dependencies = (
 			);
 			name = SwiftUIDictionaryVer2;
+			packageProductDependencies = (
+				4446CE0C23FC48FB006B8F5F /* Lottie */,
+			);
 			productName = SwiftUIDictionaryVer2;
 			productReference = 4446CDD423FC2E1D006B8F5F /* SwiftUIDictionaryVer2.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +241,9 @@
 				Base,
 			);
 			mainGroup = 4446CDCB23FC2E1D006B8F5F;
+			packageReferences = (
+				4446CE0B23FC48FB006B8F5F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 4446CDD523FC2E1D006B8F5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -241,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4446CDE423FC2E22006B8F5F /* LaunchScreen.storyboard in Resources */,
+				4446CE0F23FC49F7006B8F5F /* TestAnimations in Resources */,
 				4446CDE123FC2E22006B8F5F /* Preview Assets.xcassets in Resources */,
 				4446CDDE23FC2E22006B8F5F /* Assets.xcassets in Resources */,
 			);
@@ -268,8 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4446CDD823FC2E1D006B8F5F /* AppDelegate.swift in Sources */,
+				4446CE0823FC2F25006B8F5F /* Dictionary.swift in Sources */,
 				4446CDDA23FC2E1D006B8F5F /* SceneDelegate.swift in Sources */,
 				4446CDDC23FC2E1D006B8F5F /* ContentView.swift in Sources */,
+				4446CE0A23FC33D4006B8F5F /* SafariView.swift in Sources */,
+				4446CE1123FC4A26006B8F5F /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +618,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4446CE0B23FC48FB006B8F5F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4446CE0C23FC48FB006B8F5F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4446CE0B23FC48FB006B8F5F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4446CDCC23FC2E1D006B8F5F /* Project object */;
 }
