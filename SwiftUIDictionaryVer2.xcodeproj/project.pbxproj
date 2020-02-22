@@ -115,11 +115,11 @@
 				4446CDDB23FC2E1D006B8F5F /* ContentView.swift */,
 				4446CE0723FC2F25006B8F5F /* Dictionary.swift */,
 				4446CE0923FC33D4006B8F5F /* SafariView.swift */,
+				4446CE1023FC4A26006B8F5F /* LottieView.swift */,
 				4446CDDD23FC2E22006B8F5F /* Assets.xcassets */,
 				4446CDE223FC2E22006B8F5F /* LaunchScreen.storyboard */,
 				4446CDE523FC2E22006B8F5F /* Info.plist */,
 				4446CDDF23FC2E22006B8F5F /* Preview Content */,
-				4446CE1023FC4A26006B8F5F /* LottieView.swift */,
 			);
 			path = SwiftUIDictionaryVer2;
 			sourceTree = "<group>";
