@@ -6,6 +6,13 @@
 //  Copyright © 2020 高良昌辰. All rights reserved.
 //
 
+// 提出用 進級制作アプリです。
+// 努力した部分
+// ① SwiftUIを使用しタップとロングタップの識別やアラートダイアログなどを表示
+// ② CGを使った図鑑のカード化（実用的かは置いておいてください…）
+// ③ UINotificationFeedbackGeneratorを使った触角フィードバック
+// ④ 外部ライブラリ「Lottie」の読み込み（今回はGIFの表示のみ）
+
 import SwiftUI
 
 struct ContentView: View {
